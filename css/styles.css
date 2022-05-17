@@ -11,30 +11,30 @@
 /* колір фона header #FFFFFF; */
 
 
-:root {
+/* :root {
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --hero-text-color:#FFFFFF;
-}
-
+} */
+/* 
 body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
-}
+} */
 
-.container {
+/* .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-right: 15px;
-}
+    padding-right: 15px; */
+/* } */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -44,11 +44,11 @@ p,
 ul {
     margin-top: 0;
     margin-bottom: 0;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -66,14 +66,14 @@ ul {
 
 .logo__studio {
     color: var(--hero-text-color);
-}
+} */
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
 /* Header */
-
+/* 
 .header-section {
     border-bottom: 1px solid #ECECEC;
 }
@@ -146,7 +146,7 @@ ul {
 
 /* Site auth */
 
-.site-auth {
+/* .site-auth {
     display: flex;
     margin-left: auto;
     padding-left: 0;
@@ -185,8 +185,8 @@ ul {
     fill: #757575;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+} */
+/* 
 .site-auth__icon {
     margin-right: 10px;
 } 
@@ -195,10 +195,10 @@ ul {
 .site-auth__item:focus .site-auth__icon {
     fill: var(--accent-color);
     cursor: pointer;
-}
+} */ 
 
 /* Hero */
-
+/* 
 .hero {
     text-align: center;
     padding-top: 200px;
@@ -226,7 +226,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} */
 
 /* Titles */
 
@@ -277,7 +277,7 @@ ul {
 }
 
 /* Button */
-
+/* 
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -340,10 +340,10 @@ ul {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Section */
-
+/* 
 .feature-section {
     padding-top: 94px;
     padding-bottom: 94px; 
@@ -376,10 +376,10 @@ ul {
 .work-list-section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /* Особливості */
-
+/* 
 .feature-list {
     display: flex;
     padding-left: 0;
@@ -407,10 +407,10 @@ ul {
     background-repeat: no-repeat; 
     border-radius: 4px;
     margin-bottom: 30px;
-}
+} */
 
 /* Чем мы занимаемся */
-
+/* 
 .work-types {
     display: flex;
     padding-left: 0;
@@ -439,11 +439,11 @@ ul {
     padding-top: 27px;
     padding-bottom: 27px;
     background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Наша команда */
 
-.team-list {
+/* .team-list {
     display: flex;
     padding-left: 0;
 }
@@ -510,10 +510,10 @@ ul {
     border-left: 1px solid #EEEEEE;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+} */
 
 /* Постоянные клиенты */
-
+/* 
 .clients-list {
     display: flex;
     padding-left: 0;
@@ -554,10 +554,10 @@ ul {
 .client__info:hover,
 .client__info:focus {
     border: 1px solid var(--accent-color);
-} 
+}  */
 
 /* Modal */
-
+/* 
 .backdrop {
     position: fixed;
     top: 0;
@@ -630,12 +630,12 @@ ul {
 .modal .button-close:hover .button-close-icon,
 .modal .button-close:focus .button-close-icon {
     fill: var(--accent-color);
-}
+} */
 
 
 /* Portfolio */
 
-.work-nav {
+/* .work-nav {
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -743,11 +743,11 @@ ul {
 
 .work-list__item:hover .work-list__item-actions {
     transform: translateY(0);
-}
+} */
 
 
 /* Footer */
-
+/* 
 .footer-section {
     background-color: #2F303A;
 }
@@ -810,7 +810,7 @@ ul {
     background-color: rgba(255, 255, 255, 0.1);
 }
 /* Форми */
-
+/* 
 .form {
     display: block;
     margin-left: 93px;
@@ -888,11 +888,11 @@ ul {
     top: 50%;
     left: 148px;
     transform: translateY(-50%);
- }
- 
+ } */
+
  /* Форма модальне вікно */
 
-.form-name {
+/* .form-name {
     margin: 40px 39px 30px 41px;
     justify-content: center;
     
@@ -1050,4 +1050,4 @@ ul {
 
 .checkbox-link {
     color: var(--accent-color);
-}
+} */
