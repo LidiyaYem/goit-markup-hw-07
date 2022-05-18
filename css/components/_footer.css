@@ -45,8 +45,7 @@
     align-items: center;
 }
 
-.join__title,
-.form__title {
+.join__title {
     margin-bottom: 20px;
     
     color: var(--hero-text-color);
@@ -66,6 +65,16 @@
     display: block;
     margin-left: 93px;
     align-items: center;
+}
+
+.form__title {
+    margin-bottom: 20px;
+    
+    color: var(--hero-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .form-field {

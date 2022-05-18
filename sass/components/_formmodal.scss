@@ -12,61 +12,102 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-}
 
-.form-modal .form-field {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 39px 28px 41px;
-}
-
-.form-modal .form-input {
-    display: block;
-    position: relative;
-    width: 448px;
-    height: 40px;
-
-    padding: 11px 12px 11px 42px;
-
-    background-color: #fff;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    filter: none;
-
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-modal .form-input:focus {
-    outline: none;
-    border: 1px solid var(--accent-color);
-}
-
-.form-modal .form-label {
-    display: block;
-    position: absolute;
-    top: -25%;
-    left: 0;
-    margin-bottom: 4px;
-
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: #757575;
-}
-
-.form-modal .textarea {
-    padding: 12px 16px;
-
-    resize: none;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
+    & .form-field {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 39px 28px 41px;
+    }
     
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+    & .form-input {
+        display: block;
+        position: relative;
+        width: 448px;
+        height: 40px;
+    
+        padding: 11px 12px 11px 42px;
+    
+        background-color: #fff;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        filter: none;
+    
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    & .form-input:focus {
+        outline: none;
+        border: 1px solid var(--accent-color);
+    }
+    
+    & .form-label {
+        display: block;
+        position: absolute;
+        top: -25%;
+        left: 0;
+        margin-bottom: 4px;
+    
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: #757575;
+    }
+    
+    & .textarea {
+        padding: 12px 16px;
+    
+        resize: none;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    & .textarea:focus {
+        outline: none;
+        border: 1px solid var(--accent-color);
+    }
+    
+    & .button {      
+        margin: 0px 163px 40px 165px;
+    
+        letter-spacing: 0.06em;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        cursor: pointer;
+    
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    & .icon {
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+    
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    & .icon.person {
+        color: #212121;
+    }
+    
+    & .form-input:focus + .icon {
+        fill: var(--accent-color);
+    } 
+    
+    & .icon.check {
+        fill: #fff;
+        border: 2px solid #212121;
+        border-radius: 2px;
+    }
+
 }
 
 .form-field.comment {
@@ -76,46 +117,6 @@
 .form-field.comment .form-label {
     top: -7%;
 } 
-
-.form-modal .textarea:focus {
-    outline: none;
-    border: 1px solid var(--accent-color);
-}
-
-.form-modal .button {      
-    margin: 0px 163px 40px 165px;
-
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    cursor: pointer;
-
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-modal .icon {
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    transform: translateY(-50%);
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-modal .icon.person {
-    color: #212121;
-}
-
-.form-modal .form-input:focus + .icon {
-    fill: var(--accent-color);
-} 
-
-.form-modal .icon.check {
-    fill: #fff;
-    border: 2px solid #212121;
-    border-radius: 2px;
-}
 
 .form-field-checkbox {
     display: flex;
